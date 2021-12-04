@@ -51,7 +51,12 @@ letter-spacing: 0.02em;
   color:var(--accent-color)
 }
 
-/* .site-nav .link:current когда подключаю, не работает, и также пропадает эффкет hover и focus*/
+ .site-nav .link:current{
+   color:var(--accent-color)}         
+ /*
+ - когда подключаю, не работает!!!!!, и также пропадает эффкет hover и focus
+ */
+
 .contact-nav .nav-e-mail {
   color: var(--titles-text-color-first);
   font-weight: 500;
