@@ -57,7 +57,7 @@ letter-spacing: 0.02em;
  - когда подключаю, не работает!!!!! */
 
 .contact-nav .nav-e-mail {
-  color: var(--titles-text-color-first);
+  color: var(--text-color);
   font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -66,16 +66,16 @@ text-decoration: none;
 }
 .contact-nav .nav-e-mail:hover,
 .contact-nav .nav-e-mail:focus {
-  color: var(--text-color);
+  color: var(--accent-color);
 }
 .contact-nav .nav-tel {
-  color: var(--titles-text-color-first);
+  color: var(--text-color);
    text-decoration: none;
   
 }
 .contact-nav .nav-tel:hover,
 .contact-nav .nav-tel:focus {
-  color: var(--text-color);
+  color: var(--accent-color);
 }
 /* Hero */
 
